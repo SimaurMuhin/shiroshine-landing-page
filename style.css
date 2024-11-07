@@ -1,0 +1,314 @@
+.hero-img{
+    align-items: baseline;
+    width: 400px;
+    margin: 0px;
+
+}
+
+.hero-btn{
+    border: 1px solid #5E3BEE;
+    color: #5E3BEE;
+    width: 120px;
+    height: 40px;
+    margin-top: 3px;
+    transition: 1s;
+}
+
+#hero-1{
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 15px black;
+}
+
+
+
+/* hero-section */
+
+.hero-section{
+    background-color: #F5FCFF;
+    height:auto;
+    text-align: center;
+}
+
+.hero-section button{
+    background-color: #5E3BEE;
+    color: #FFFFFF;
+}
+
+.hero-btn-1{
+    height: 45px;
+    transition: 1s;
+}
+
+.hero-btn-1:hover{
+background-color: #4e81ee;
+
+box-shadow: 12px 9px 16px rgba(0, 0, 0, 0.37);
+}
+
+.hero-titel{
+    padding-top: 160px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.hero-text{
+    font-size: 29px;
+    line-height: 29px;
+}
+
+.hero-text-2{
+    font-size: 19px;
+    line-height: 26px;
+}
+
+.hero-img-1{
+    width: 100%;
+    padding-top: 100px;
+    margin-bottom: 110px;
+   
+}
+
+/* skill-section */
+
+.skill-img{
+    height:70px;
+    width: 70px;
+    
+}
+
+.skill-img-1{
+    height:70px;
+    width: 60px;
+    padding-left: 20px;
+}
+
+
+.skill-sec {
+    height: auto;
+    margin-top: 90px;
+    margin-bottom: 250px;
+}
+
+.skill-list{
+
+    transition: ease-in-out 0.3s;
+
+}
+
+
+.skill-list:hover{
+    /* border-bottom: 4px solid #5E3BEE ; */
+    box-shadow: 12px 9px 16px rgba(0, 0, 0, 0.37);
+}
+
+
+/* about me section */
+
+.about-titel{
+    font-size: 19px;
+    line-height: 29px;
+
+}
+
+.about-titel-2{
+    font-size: 64px;
+    line-height: 62px;
+}
+
+
+.about-discription{
+
+   padding-top: 120px;
+
+
+}
+
+.about-me{
+    height: auto;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+
+/* portfoio-section */
+
+
+
+.recet-titel{
+
+    padding-left: 60px;
+
+}
+
+.portfolio-titel{
+    padding-left: 60px;
+}
+
+
+
+.portfolio-btn{
+    background-color: #E62872;
+    margin-right: 67.95px;
+    transition: 0.2s;
+    color: white;
+
+}
+
+.portfolio-btn:hover{
+    background-color: #7a0ce063;
+    /* box-shadow: 0px 0px 15px black; */
+    color: #FFFFFF;
+
+}
+
+
+.portfolio-btn img{
+    width: 20px;
+}
+
+
+.my-portfolio{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-body a{
+    font-size: 18px;
+    border-bottom: 1px solid green;
+    border-radius: 0px;
+}
+.card-body a > img{
+
+width:16px;
+margin-left: 5px;
+
+}
+
+
+
+
+
+/* <!-- feed-back section --> */
+
+
+
+.feed-back{
+background-color: #F5FCFF;
+height: auto;
+
+
+}
+
+
+.feed-back-titel{
+    font-size: 20px;
+    line-height: 29px;
+}
+
+
+.feed-back-text{
+    font-size: 56px;
+    line-height: 25px;
+}
+
+.feed-back-img{
+    width: 30%;
+}
+
+.card-1{
+    background-color: #F5FCFF;
+    border: 1px solid green;
+    transition: 0.6s;
+}
+
+.card-1:hover{
+    box-shadow:6px 6px 16px rgba(0, 0, 0, 0.479);
+}
+
+
+
+/* contact me section */
+
+.contact-discription h6{
+font-size: 20px;
+line-height: 26px;
+}
+
+.contact-discription h2{
+    font-size: 45px;
+    line-height: 29px;
+}
+
+.contact-discription p{
+padding-top: 12px;
+font-size: 19px;
+line-height: 24px;
+}
+
+.contact-btn{
+background-color: #5E3BEE;
+height: 50px;
+width: 150px;
+margin-bottom: 90px;
+color: #FFFFFF;
+transition: 0.6s;
+}
+
+.contact-btn:hover{
+    box-shadow: 12px 9px 16px rgba(0, 0, 0, 0.37);
+    background-color: #E62872;
+}
+
+
+/* Footer Section */
+footer{
+    background-color: #F5FCFF;
+}
+
+.footer-first{
+    border-bottom: 1px solid #2829387c;
+    padding-bottom: 70px;
+}
+.footer-logo img{
+    width: 50%;
+
+}
+
+.footer-menu li{
+    border: none;
+    font-size: 19px;
+    font-weight: 250px;
+    background-color: transparent;
+}
+
+.footer-social img{
+    width: 24px;
+    margin-left: 10px;
+}
+
+.footer-last{
+    padding-top: 70px;
+}
+
+
+
+
+
+/* hover */
+:hover.hero-btn{
+    background-color: #5E3BEE;
+    color: black;
+}
+
+
+
+.card-body a:hover img{
+    background-color: #5E3BEE;
+    fill:green;
+}
+
+
+
+
+/* responsive */
